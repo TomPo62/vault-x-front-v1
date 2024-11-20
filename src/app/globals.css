@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ededed;
+    --foreground: #0a0a0a;
+  --text-primary: #e2e2e2;
+  --first-hover: #bebebe;
+  --warn: #ffd700;
+  --accent: #4ade80;
+  --accent-hover: #22c55e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --text-primary: #e2e2e2;
+    --first-hover: #bebebe;
+    --warn: #ffd700;
+  --accent: #4ade80;
+  --accent-hover: #22c55e;
+
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.to-anim-bounce {
+  animation: bounce 6s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-8%);
+    animation-timing-function: cubic-bezier(0.6, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@layer utilities {
+  .transition-one {
+    @apply transition-all duration-200 ease-in-out;
+  }
+
+  /* Custom scrollbar only for the element with the class 'custom-scrollbar' */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; /* Customize the height for horizontal scroll */
+
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: var(--background); /* Use theme color here */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--text-primary); /* Use theme color here */
+    border-radius: 10px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: var(
+      --first-hover
+    ); /* Color when hovered */
+  }
+}

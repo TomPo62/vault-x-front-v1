@@ -1,0 +1,24 @@
+<svg width="350" height="350" viewBox="0 0 350 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="VeltyrLogo">
+<g clip-path="url(#clip0_141_2)">
+<rect width="350" height="350" rx="22" fill="black"/>
+<g id="VaultXLogo1">
+<g id="X">
+<rect id="Rectangle 2" width="223.194" height="19.056" rx="3" transform="matrix(0.380102 0.924945 0.916437 -0.400179 88.4351 22.9612)" fill="#BEBEBE"/>
+<rect id="Rectangle 3" width="341.672" height="19.056" rx="3" transform="matrix(0.380102 -0.924945 -0.933013 -0.359844 140.78 345.885)" fill="#BEBEBE"/>
+</g>
+<g id="V">
+<circle id="Ellipse 2" cx="175.5" cy="339.5" r="10.5" fill="#E2E2E2"/>
+<rect id="Rectangle 1" x="303.647" y="54.8418" width="315.7" height="18" rx="3" transform="rotate(112.34 303.647 54.8418)" fill="#E2E2E2"/>
+<rect id="Rectangle 2_2" width="315.7" height="18" rx="3" transform="matrix(0.380102 0.924945 0.924945 -0.380102 47 54.8418)" fill="#E2E2E2"/>
+</g>
+<circle id="Ellipse 1" cx="175" cy="175" r="169" stroke="#E2E2E2" stroke-width="12"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_141_2">
+<rect width="350" height="350" rx="22" fill="white"/>
+</clipPath>
+</defs>
+</svg>
